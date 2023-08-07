@@ -5,30 +5,45 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>legal solution</title>
+    <link rel="stylesheet" href="styles/style.css">
     <script src="https://cdn.tailwindcss.com"></script>
+    
 </head>
 
 <body>
-    <header>
-       
-        <nav class="p-4 md:flex items-center justify-between mx-auto container">
-           <div class="flex items-center gap-2">
-            <img src="images/Group 1.jpg" alt="">
-            <h3 class="text-2xl font-bold">Justice</h3>
-           </div>
-           <ul class="md:flex md:space-x-8 space-y-4 md:space-y-0 my-4 md:my-0">
-            <li><a href="">Home</a></li>
-            <li><a href="">Services</a></li>
-            <li><a href="">Cases</a></li>
-            <li><a href="">Blog</a></li>
-            <li><a href="">Contact Us</a></li>
-           </ul>
-           <button class="bg-yellow-700 px-4 py-2 rounded text-white">
-            <a href="">Free Consultation</a>
-           </button>
+    <header class="container mx-auto">
+        <!-- nav bar  -->
+        <nav class="p-4 md:flex items-center justify-between mx-auto bg-[#F3F3F3] md:bg-white">
+            <div class="flex items-center gap-2">
+                <img src="images/Group 1.jpg" alt="">
+                <h3 class="text-2xl font-bold">Justice</h3>
+            </div>
+            <ul class="md:flex md:space-x-8 space-y-4 md:space-y-0 my-4 md:my-0">
+                <li><a href="">Home</a></li>
+                <li><a href="">Services</a></li>
+                <li><a href="">Cases</a></li>
+                <li><a href="">Blog</a></li>
+                <li><a href="">Contact Us</a></li>
+            </ul>
+            <button class="bg-yellow-700 px-4 py-2 rounded text-white">
+                <a href="">Free Consultation</a>
+            </button>
         </nav>
-        <div class="flex-grow p-8">
-           
+        <!-- header banner -->
+        <div class="mx-auto bg-[url('images/banner.png')] h-screen bg-no-repeat bg-blend-overlay bg-center flex items-center" >
+            <div class="text-left md:text-center">
+                <h1 class="text-7xl font-semibold text-white">We Provide Effective <br> Legal Solutions</h1>
+            <p class="text-white my-5 px-1 md:px-56">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration
+                in some form, by injected humour.</p>
+
+            <div>
+                <input type="search" placeholder="Search"
+                class="border rounded-l px-4 py-2 w-64 focus:outline-none  focus:border-yellow-600" />
+            <button class="bg-yellow-700 hover:bg-yellow-600 text-white font-semibold py-2 px-4 rounded-r">
+                Search
+            </button>
+            </div>
+            </div>
         </div>
     </header>
 </body>
