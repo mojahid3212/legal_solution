@@ -1,3 +1,6 @@
-.bg-banner{
-    background-image: url("images/banner.png");
+.bg-gold{
+    background-color: rgb(119, 86, 3);
+}
+.btn:hover{
+    background-color: goldenrod;
 }
